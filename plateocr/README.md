@@ -9,6 +9,10 @@
  + [tessdata](src/test/resources/tessdata) tesseract 识别所需的一些配置文件，以jar包方式使用时**请把tessdata整个文件夹请放到对应的classpath环境下**，目前没提供jar包读取
  + [测试图片](src/test/resources/jpg) 测试图片目录
  + [测试结果](src/test/resources/test-result.txt) 放置测试图片的输出结果
+ 
+### 一些说明
+* 本项目是使用opencv-mser提取身份证后妈图块，使用loaddll加载Mser动态库，只提供windows环境
+* 然后使用javacpp提供好的org.bytedeco.javacpp-presets下的tesseract识别身份证号码
 
 ### 结果比对
 #### 图片test.jpg-432522199501235621

@@ -1,0 +1,45 @@
+## test.jpg测试输出结果
+
+加载动态库Mser完成
+tesseract.TessBaseAPI初始化成功
+不进行预处理：13
+
+131071
+
+211199501237
+
+091151331211112
+137315447138
+
+4271533432522199501235621
+
+
+进行预处理：311423921432522199501235621
+
+
+Warning in pixReadMemJpeg: work-around: writing to a temp file
+Warning in pixReadMemBmp: work-around: writing to a temp file
+
+## test1.jpg测试输出结果
+
+加载动态库Mser完成
+tesseract.TessBaseAPI初始化成功
+不进行预处理：55443
+
+35315517
+
+12165412320312
+
+321355811133154
+33302
+
+501142811165112282433
+
+
+
+
+进行预处理：2233583353112044165412202438
+
+
+Warning in pixReadMemJpeg: work-around: writing to a temp file
+Warning in pixReadMemBmp: work-around: writing to a temp file

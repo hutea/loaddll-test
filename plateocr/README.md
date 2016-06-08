@@ -6,13 +6,14 @@
  + [dll](src/main/resources/dll) 放置动态库目录，打成jar包时，会自己解压其中的动态库至系统的temp文件夹
 + [test目录](src/test)
  + [org/smirkcat/plateocr](src/test/java/org/smirkcat/plateocr) 测试函数类，测试时请运行Test.java即可
- + [tessdata](src/test/resources/tessdata) tesseract 识别所需的一些配置文件，以jar包方式使用时时**请把tessdata整个文件夹请放到对应的classpath环境下**，目前没提供jar包读取
- +[测试图片](src/test/resources/jpg) 测试图片目录
- +[测试结果](src/test/resources/test-result.txt) 放置测试图片的输出结果
+ + [tessdata](src/test/resources/tessdata) tesseract 识别所需的一些配置文件，以jar包方式使用时**请把tessdata整个文件夹请放到对应的classpath环境下**，目前没提供jar包读取
+ + [测试图片](src/test/resources/jpg) 测试图片目录
+ + [测试结果](src/test/resources/test-result.txt) 放置测试图片的输出结果
 
 ### 结果比对
 #### 图片test.jpg-432522199501235621
 ![测试图片](src/test/resources/jpg/test.jpg)
+
 | 是否预处理(MSER)     | 识别最后一行           | 后18位  |
 | :------------------: |:----------------------:|: ------:|
 | 否     |4271533432522199501235621 | 432522199501235621 |
@@ -20,6 +21,7 @@
 
 #### 图片test1.jpg-11204416541220243X
 ![测试图片](src/test/resources/jpg/test1.jpg)
+
 | 是否预处理(MSER)     | 识别最后一行           | 后18位  |
 | :------------------: |:----------------------:|: ------:|
 | 否     |501142811165112282433 | 142811165112282433 |

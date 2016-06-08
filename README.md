@@ -7,7 +7,8 @@
 
 ### plateocr测试使用参见
 [plateocr/README.md](plateocr/README.md)
-*发现码云不支持表格，还是自己写错了，所以在这里给出不是表格的测试结果*
+
+**发现码云不支持表格，还是自己写错了，所以在这里给出不是表格的测试结果**
 
 ### 测试结果比较
 #### 图片test.jpg-432522199501235621
@@ -20,7 +21,7 @@
 ```
 
 #### 图片test1.jpg-11204416541220243X
-![测试图片]((plateocr/src/test/resources/jpg/test1.jpg)
+![测试图片](plateocr/src/test/resources/jpg/test1.jpg)
 ```
 不进行预处理：501142811165112282433
 后18位：142811165112282433
